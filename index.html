@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Springraphics · Branding Studio | 3D y animación</title>
+<meta name="description" content="Springraphics es un estudio de branding, 3D y animación en Tuxtla Gutiérrez, Chiapas. Hogar de Spring Studio y del programa BEN. Reunión de 30 min sin costo.">
+<meta name="theme-color" content="#2A5FF0">
+<link rel="canonical" href="https://www.springraphics.com/">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Springraphics">
+<meta property="og:title" content="Springraphics · Branding Studio">
+<meta property="og:description" content="Branding, 3D y animación. Hogar de Spring Studio y del programa BEN. Reunión de 30 min sin costo.">
+<meta property="og:url" content="https://www.springraphics.com/">
+<meta property="og:image" content="https://www.springraphics.com/assets/og.jpg">
+<meta property="og:locale" content="es_MX">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="assets/logo.webp">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"Organization","@id":"https://www.springraphics.com/#org","name":"Springraphics","url":"https://www.springraphics.com/","logo":"https://www.springraphics.com/assets/logo.webp","foundingDate":"2024-02","founder":{"@type":"Person","name":"Primavera Flores"},"email":"springraphics_7@gmail.com","telephone":"+52 812 758 2207"},
+ {"@type":"ProfessionalService","@id":"https://www.springraphics.com/#studio","name":"Springraphics","parentOrganization":{"@id":"https://www.springraphics.com/#org"},"url":"https://www.springraphics.com/","image":"https://www.springraphics.com/assets/og.jpg","description":"Estudio de branding, 3D y animación. Programa BEN: Branding, Estrategia de Negocio y Negocio Digital.","telephone":"+52 812 758 2207","email":"springraphics_7@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Tuxtla Gutiérrez","addressRegion":"Chiapas","addressCountry":"MX"},"availableLanguage":["es","en"],"knowsAbout":["Branding","3D animation","CGI","Web design","SEO","Social media"]}
+]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,500&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');try{if(!sessionStorage.getItem('spg-intro')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('intro-on')}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="a11y.skip">Saltar al contenido</a>
+
+<!-- INTRO: logo animation recreated in code (plays once per session, Esc or button to skip) -->
+<div class="intro" id="intro">
+  <div class="intro__stage">
+    <span class="intro__ripple"></span>
+    <span class="orb intro__orb"></span>
+    <img class="intro__logo" src="assets/logo.webp" alt="springraphics" width="720" height="246">
+  </div>
+  <button class="intro__skip" id="introSkip" data-i18n="intro.skip">Saltar intro</button>
+</div>
+
+<span class="roll orb" aria-hidden="true"></span>
+<span class="cursor orb" aria-hidden="true"></span>
+
+<header class="top">
+  <a class="logo" href="#inicio"><img src="assets/logo.webp" alt="Springraphics" width="720" height="246"></a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Menú" data-i18n-aria="nav.menu"><span></span><span></span></button>
+  <nav class="nav" id="nav" aria-label="Principal">
+    <a href="#studio">Spring Studio</a>
+    <a href="#portafolio" data-i18n="nav.work">Portafolio</a>
+    <a href="#ben">BEN</a>
+    <a href="#nosotros" data-i18n="nav.about">Nosotros</a>
+    <a class="nav__out" href="https://springlearning.mx" target="_blank" rel="noopener">SpringLearning ↗</a>
+    <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+    <button class="tog js-lang" role="switch" aria-checked="false" aria-label="Switch to English"><span>ES</span><span>EN</span><i></i></button>
+    <a class="btn btn--sm" data-wa href="https://wa.me/528127582207" target="_blank" rel="noopener" data-i18n="cta.meet">Reunión gratis</a>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- 1 HERO -->
+<section class="sec hero bg-mist" id="inicio">
+  <span class="orb float f2" aria-hidden="true"></span>
+  <span class="orb float f3" aria-hidden="true"></span>
+  <span class="shape stairs" aria-hidden="true"></span>
+  <div class="hero__grid">
+    <div>
+      <p class="eyebrow" data-hero data-i18n="hero.eyebrow">3D · Animación · Estrategia digital</p>
+      <h1 class="mega" id="heroTitle">Branding <span class="hl">Studio.</span></h1>
+      <p class="lead" data-hero data-i18n="hero.sub">Diseñamos, animamos y ponemos tu marca en línea. Somos Spring Studio: el hogar de Springraphics, <a href="https://springlearning.mx" target="_blank" rel="noopener">SpringLearning</a>, SpringDeploy y BEN.</p>
+      <div class="row" data-hero>
+        <a class="btn" data-wa href="https://wa.me/528127582207" target="_blank" rel="noopener" data-i18n="cta.wa">Escríbenos por WhatsApp</a>
+        <a class="btn btn--ghost" href="#portafolio" data-i18n="cta.work">Ver portafolio</a>
+      </div>
+    </div>
+    <!-- the original logo animation, untouched (compressed copy of Logo_1.mp4) -->
+    <video class="hero__vid" id="heroVid" data-hero muted loop playsinline autoplay preload="metadata" poster="assets/logo-poster.webp" src="assets/logo-anim.mp4" aria-label="Animación del logo de Springraphics" data-i18n-aria="hero.vid"></video>
+  </div>
+</section>
+
+<!-- 2 MARQUEE -->
+<div class="marquee bg-ink">
+  <div class="marquee__track">
+    <ul class="marquee__group" data-i18n="marquee"><li>Branding</li><li>Animación 3D</li><li>CGI</li><li>Diseño gráfico</li><li>Páginas web</li><li>SEO</li><li>Redes sociales</li><li>Foto y video</li><li>Imágenes con IA</li><li>Estrategia de negocio</li></ul>
+  </div>
+</div>
+
+<!-- 3 SPRING STUDIO: hover or tap a name, the orb jumps to it and the card switches -->
+<section class="sec bg-cream" id="studio">
+  <span class="shape quarter" aria-hidden="true"></span>
+  <div class="dots" aria-hidden="true"><i class="orb"></i><i class="orb"></i><i class="orb"></i></div>
+  <h2 class="big" data-reveal>Spring Studio</h2>
+  <p class="serif" data-reveal data-i18n="casa.serif">Cuatro puertas, una sola familia.</p>
+  <div class="switch" id="casaSwitch" data-reveal>
+    <div class="switch__list">
+      <span class="orb switch__dot" aria-hidden="true"></span>
+      <button class="switch__item" aria-pressed="true">Springraphics</button>
+      <button class="switch__item" aria-pressed="false">SpringLearning</button>
+      <button class="switch__item" aria-pressed="false">SpringDeploy</button>
+      <button class="switch__item" aria-pressed="false">BEN</button>
+    </div>
+    <div>
+      <p class="switch__count" aria-hidden="true"><span id="casaNum">01</span> / 04</p>
+      <div class="switch__stage">
+        <article class="card switch__panel is-on card--blue">
+          <span class="orb card__blob" aria-hidden="true"></span>
+          <h3>Springraphics</h3>
+          <p data-i18n="casa.spg">Branding, 3D y animación, diseño gráfico, marketing digital, web, redes, foto y video, prompts e IA.</p>
+          <a class="card__link" href="#portafolio" data-i18n="casa.spg.link">Ver el trabajo</a>
+        </article>
+        <article class="card switch__panel card--orange">
+          <span class="orb card__blob" aria-hidden="true"></span>
+          <h3>SpringLearning</h3>
+          <p data-i18n="casa.sl">Alfabetización en IA, inglés y habilidades digitales, en dos idiomas, para niños, adultos e instituciones. Incluye Spring Academy y Spring Talks.</p>
+          <a class="card__link" href="https://springlearning.mx" target="_blank" rel="noopener">springlearning.mx</a>
+        </article>
+        <article class="card switch__panel card--green">
+          <span class="orb card__blob" aria-hidden="true"></span>
+          <h3>SpringDeploy</h3>
+          <p data-i18n="casa.sd">Capacitación en IA para escuelas y empresas. Ya la impartimos en 2 colegios.</p>
+          <a class="card__link" href="#contacto" data-i18n="casa.sd.link">Capacita a tu equipo</a>
+        </article>
+        <article class="card switch__panel card--ink">
+          <span class="orb card__blob" aria-hidden="true"></span>
+          <h3>BEN</h3>
+          <p data-i18n="casa.ben">Branding · Estrategia de Negocio · Negocio Digital. El programa que lo une todo.</p>
+          <a class="card__link" href="#ben" data-i18n="casa.ben.link">Conoce BEN</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 PORTAFOLIO / REEL (items come from CONFIG.work in main.js) -->
+<section class="sec bg-blue" id="portafolio">
+  <span class="orb float f1 ghost" aria-hidden="true"></span>
+  <div class="dots" aria-hidden="true"><i class="orb"></i><i class="orb"></i><i class="orb"></i></div>
+  <h2 class="big" data-reveal data-i18n="work.title">Portafolio</h2>
+  <p class="serif" data-reveal data-i18n="work.serif">Del boceto al render, todo se mueve.</p>
+  <figure class="reel" data-reveal>
+    <video data-media="reel" preload="none" muted loop playsinline controls aria-label="Reel de animación de Springraphics" data-i18n-aria="work.reel"></video>
+  </figure>
+  <div class="filter" id="filter" role="group" aria-label="Filtrar proyectos" data-i18n-aria="work.filter" data-reveal></div>
+  <div class="strip" id="strip" tabindex="0" role="region" aria-label="Galería de proyectos" data-i18n-aria="work.gallery" data-reveal></div>
+  <p class="hint" data-i18n="work.hint">Desliza para ver más →</p>
+</section>
+
+<!-- 5 BEN -->
+<section class="sec bg-orange" id="ben">
+  <span class="shape stairs stairs--ink" aria-hidden="true"></span>
+  <p class="eyebrow" data-reveal data-i18n="ben.eyebrow">Branding · Estrategia de Negocio · Negocio Digital</p>
+  <h2 class="mega" data-reveal>BEN</h2>
+  <p class="lead" data-reveal data-i18n="ben.lead">Un programa de 3 o 6 meses que ordena tu marca, tu estrategia y tu presencia digital. Siempre empieza con un diagnóstico.</p>
+
+  <div class="plan" data-reveal>
+    <button class="tog tog--lg" id="planTog" role="switch" aria-checked="false" aria-label="Cambiar entre 3 y 6 meses" data-i18n-aria="ben.tog"><span>3</span><span>6</span><i></i></button>
+    <strong data-i18n="ben.months">meses</strong>
+    <p id="planText" aria-live="polite"></p>
+  </div>
+
+  <ol class="timeline">
+    <li data-reveal><span class="orb" aria-hidden="true"></span><h3 data-i18n="ben.t1">Diagnóstico</h3><p data-i18n="ben.t1p">2 a 4 semanas para ver dónde estás hoy.</p></li>
+    <li data-reveal><span class="orb" aria-hidden="true"></span><h3 data-i18n="ben.t2">Cimentación</h3><p data-i18n="ben.t2p">Marca, estrategia y bases digitales.</p></li>
+    <li data-reveal><span class="orb" aria-hidden="true"></span><h3 data-i18n="ben.t3">Implementación</h3><p data-i18n="ben.t3p">Lo ponemos a trabajar contigo y tu equipo.</p></li>
+    <li data-reveal><span class="orb" aria-hidden="true"></span><h3 data-i18n="ben.t4">Optimización</h3><p data-i18n="ben.t4p">Medimos, ajustamos y planeamos lo que sigue.</p></li>
+  </ol>
+
+  <p class="pipeline" data-reveal><strong>Spring Pipeline:</strong> <span data-i18n="ben.pipeline">Exploración → Investigación → Creación → Aplicación → Reflexión</span></p>
+
+  <div class="ben-grid">
+    <div class="panel" data-reveal>
+      <h3 data-i18n="ben.inc">Qué incluye</h3>
+      <ul class="orbs" data-i18n="ben.list">
+        <li><strong>Branding:</strong> logo, identidad, papelería, mood board, paleta y tono.</li>
+        <li><strong>Estrategia de negocio:</strong> FODA y plan de negocio.</li>
+        <li><strong>Negocio digital:</strong> página web, SEO y redes.</li>
+        <li><strong>Redes sociales:</strong> 5 publicaciones por semana, plantillas y campañas.</li>
+        <li><strong>3D y CGI</strong> para tu marketing.</li>
+        <li><strong>Imágenes con IA</strong> para tu marca.</li>
+      </ul>
+    </div>
+    <div class="cases">
+      <h3 data-reveal data-i18n="ben.cases">Casos BEN</h3>
+      <article class="case" data-reveal><h4>PepBioSystem</h4><p data-i18n="m.add.result">En construcción · Próximamente</p><button class="card__link" data-case="pepbiosystem" data-i18n="ben.case">Ver caso</button></article>
+      <article class="case" data-reveal><h4>4Blum</h4><p data-i18n="m.add.result">En construcción · Próximamente</p><button class="card__link" data-case="4blum" data-i18n="ben.case">Ver caso</button></article>
+      <article class="case" data-reveal><h4>Kinni</h4><p data-i18n="m.add.result">En construcción · Próximamente</p><button class="card__link" data-case="kinni" data-i18n="ben.case">Ver caso</button></article>
+      <article class="case" data-reveal><h4>Lasik Vision Center Chiapas</h4><p data-i18n="m.add.result">En construcción · Próximamente</p><button class="card__link" data-case="lasik" data-i18n="ben.case">Ver caso</button></article>
+    </div>
+  </div>
+</section>
+
+<!-- 6 NOSOTROS -->
+<section class="sec bg-green" id="nosotros">
+  <span class="orb float f1 ghost" aria-hidden="true"></span>
+  <div class="about">
+    <figure class="portrait" data-reveal>
+      <img data-media="about" alt="El equipo de Springraphics" data-i18n-alt="about.alt" loading="lazy" decoding="async">
+    </figure>
+    <div>
+      <p class="eyebrow" data-reveal data-i18n="about.eyebrow">Quiénes somos</p>
+      <h2 class="big" data-reveal data-i18n="about.title">Nosotros</h2>
+      <p class="lead" data-reveal data-i18n="about.bio">Somos un estudio de arte digital que une arte, tecnología y diseño. Hacemos branding, animación 3D y estrategia digital para que las marcas crezcan. Trabajamos en español e inglés desde Tuxtla Gutiérrez, Chiapas.</p>
+      <p class="about__more" data-reveal data-i18n="about.founder">Springraphics nació en febrero de 2024. Lo fundó Primavera Flores, Licenciada en Animación por Los Angeles Film School, con especialidad en Environment &amp; Character Design y 6 certificaciones de Canva.</p>
+      <p class="serif" data-reveal data-i18n="about.serif">Animamos marcas como se anima un personaje: con intención.</p>
+      <ul class="chips" data-reveal aria-label="Herramientas" data-i18n-aria="about.tools">
+        <li>Maya</li><li>ZBrush</li><li>Houdini</li><li>Substance Painter</li><li>Blender</li><li>Photoshop</li><li>Canva</li>
+      </ul>
+      <a class="btn btn--light" data-reveal href="https://springlearning.mx" target="_blank" rel="noopener" data-i18n="about.sl">Conoce SpringLearning ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- 7 CONTACTO -->
+<section class="sec bg-ink contact" id="contacto">
+  <span class="orb float f1" aria-hidden="true"></span>
+  <span class="orb float f3" aria-hidden="true"></span>
+  <h2 class="mega" data-reveal data-i18n="c.title">Hablemos de tu <span class="gold">marca.</span></h2>
+  <p class="lead" data-reveal data-i18n="c.lead">Reunión de 30 min sin costo. Después viene el diagnóstico y recibes una cotización a la medida en 48 horas.</p>
+  <a class="btn btn--giant" data-reveal data-wa href="https://wa.me/528127582207" target="_blank" rel="noopener" data-i18n="cta.wa">Escríbenos por WhatsApp</a>
+  <ul class="contact__list" data-reveal>
+    <li><span data-i18n="c.phone">Teléfono</span><a href="tel:+528127582207">+52 812 758 2207</a></li>
+    <li><span data-i18n="c.mail">Correo</span><a href="mailto:springraphics_7@gmail.com">springraphics_7@gmail.com</a><a href="mailto:primavera@springlearning.mx">primavera@springlearning.mx</a></li>
+    <li><span data-i18n="c.where">Dónde</span><span class="plain" data-i18n="c.loc">Tuxtla Gutiérrez, Chiapas · también en remoto</span></li>
+  </ul>
+</section>
+</main>
+
+<!-- 8 FOOTER -->
+<footer class="foot bg-ink">
+  <a class="logo" href="#inicio"><img src="assets/logo.webp" alt="Springraphics" width="720" height="246"></a>
+  <nav aria-label="Familia Spring" data-i18n-aria="f.family">
+    <a href="#portafolio">Springraphics</a>
+    <a href="https://springlearning.mx" target="_blank" rel="noopener">SpringLearning</a>
+    <a href="#contacto">SpringDeploy</a>
+    <a href="#ben">BEN</a>
+  </nav>
+  <p>© 2026 Springraphics</p>
+  <button class="tog js-lang" role="switch" aria-checked="false" aria-label="Switch to English"><span>ES</span><span>EN</span><i></i></button>
+</footer>
+
+<dialog class="modal" id="modal" aria-labelledby="modalTitle">
+  <button class="modal__x" id="modalX" aria-label="Cerrar" data-i18n-aria="m.close">×</button>
+  <div class="modal__body" id="modalBody"></div>
+  <div class="modal__nav" id="modalNav">
+    <button id="modalPrev" aria-label="Anterior" data-i18n-aria="m.prev">←</button>
+    <button id="modalNext" aria-label="Siguiente" data-i18n-aria="m.next">→</button>
+  </div>
+</dialog>
+
+<script src="assets/vendor/gsap.min.js" defer></script>
+<script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="main.js" defer></script>
+</body>
+</html>
